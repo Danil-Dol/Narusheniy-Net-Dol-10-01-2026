@@ -1,4 +1,16 @@
-*
+*, body
 {
-    
+   background-color: #DDE8FF;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.card
+{
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    padding: 80px;
+    box-sizing: border-box;
+    width: 530px;
+    height: auto;
 }
