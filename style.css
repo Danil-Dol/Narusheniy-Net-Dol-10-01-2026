@@ -1,8 +1,9 @@
-*, body
+*
 {
    background-color: #DDE8FF;
    margin: 0 auto;
    text-align: center;
+   font-family: Calibri
 }
 
 .card
@@ -13,4 +14,357 @@
     box-sizing: border-box;
     width: 530px;
     height: auto;
+    margin-top: 132px;
+    margin-bottom: 132px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blue_text
+{
+    background-color: transparent;
+    color: #051AFF;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.red_text
+{
+    background-color: transparent;
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.auth
+{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 32px;
+    font-weight: 500;
+    background-color: transparent;
+    color: #051AFF;
+}
+
+.inp
+{
+    width: 250px;
+    height: 38px;
+    border: #051AFF solid 1px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #8A8080;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 35px;
+    outline-color: #051AFF;
+}
+
+a
+{
+    text-decoration: none;
+    background-color: transparent;
+}
+
+p
+{
+    background-color: transparent;
+}
+
+.btn
+{
+    width: 250px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #051AFF;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 35px;
+    outline-color: #051AFF;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.btn:hover
+{
+    width: 250px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #0010be;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 35px;
+    outline-color: #0010be;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.header
+{
+    height: 100px;
+    width: auto;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.logo
+{
+    background-color: transparent;
+}
+
+.el
+{
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    margin-top: 13px;
+    gap: 2px;
+}
+
+.select
+{
+    width: 213px;
+    height: 42px;
+    border: #051AFF solid 1px;
+    border-radius: 5px;
+    outline: #051AFF;
+    background-color: transparent;
+}
+
+.btn_exit
+{
+    width: 213px;
+    height: 42px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: #051AFF solid 1px;
+    outline: #051AFF;
+    color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: right;
+    transition: 0.3s ease;
+}
+
+.btn_exit:hover
+{
+    width: 213px;
+    height: 42px;
+    background-color: #cccccc;
+    border-radius: 5px;
+    border: #051AFF solid 1px;
+    outline: #051AFF;
+    color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: right;
+    transition: 0.3s ease;
+}
+
+.main
+{
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.btn_create
+{
+    width: 210px;
+    height: 48px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 151px;
+    margin-top: 25px;
+    transition: 0.3s ease;
+}
+
+.btn_create:hover
+{
+    width: 210px;
+    height: 48px;
+    background-color: #b30000;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 151px;
+    margin-top: 25px;
+    transition: 0.3s ease;
+}
+
+.card-report
+{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 1131px;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.data
+{
+    color: #FF0000;
+    background-color: transparent;
+}
+
+.col1
+{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.desc
+{
+    max-width: 780px;
+}
+
+.no
+{
+    color: #FF0000;
+}
+
+.yes
+{
+    color: #051AFF;
+}
+
+.nav
+{
+    width: 1180px;
+    margin: 0 auto;
+    height: 48px;
+    background-color: #FFFFFF;
+    margin-left: 130px;
+    border-top: #000000 solid 1px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.tw
+{
+    margin-top: 40px;
+    margin-left: 130px;
+    width: 261px;
+    background-color: #FFFFFF;
+}
+
+.textarea
+{
+    width: 653px;
+    height: auto;
+    border: #051AFF solid 1px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #8A8080;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 40px;
+    outline-color: #051AFF;
+    margin-left: 130px;
+}
+
+.sec, .sec:hover
+{
+    margin-left: 130px;
+    margin-top: 0;
+}
+
+.table
+{
+    max-width: 1180px;
+    height: auto;
+}
+
+.bl
+{
+    background-color: #051AFF;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    text-align: left;
+}
+
+.one
+{
+    background-color: #FFFFFF;
+    font-weight: 500;
+    text-align: left;
+}
+
+.two
+{
+    background-color: #E1CADE;
+    font-weight: 500;
+    text-align: left;
+}
+
+.l
+{
+    max-width: 372px;
 }
